@@ -1,0 +1,57 @@
+textarea {
+    min-height: 400px;
+}
+.message{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: solid #808080;
+    border-width: 0px 1px 1px 0px;
+    padding:15px;
+    border-radius: 11px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.read {
+    background-color: #f2f6fc;
+}
+
+.message:hover{
+    border-width: 1px 1px;
+    
+}
+
+.time{
+    margin-top:100px;
+    text-align: right;
+}
+
+.right button{
+    order:-1;
+    margin-right: 10px;
+}
+
+.right {
+    display:flex;
+}
+
+.reply{
+    float:right;
+    margin-top:25px;
+}
+
+.archiveButton {
+    margin-left:25px;
+}
+
+body {
+    background-color: #fcfcfc;
+}
+
+
+.archiveButton, .reply {
+    border-radius: 12px;
+    padding:3px 15px;
+
+}
